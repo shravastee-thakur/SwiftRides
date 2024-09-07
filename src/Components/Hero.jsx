@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="z-30 absolute w-[1500px] top-20 h-auto">
           <img src="/images/harrier.png" />
         </div>
-        <div className="bg-[#d2c924] w-2/3 min-h-screen absolute right-0 top-0"></div>
+        <div className="bg-[#d2c924] -z-10 w-2/3 min-h-screen absolute right-0 top-0"></div>
       </div>
     </section>
   );
