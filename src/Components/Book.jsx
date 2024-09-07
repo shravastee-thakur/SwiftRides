@@ -9,7 +9,7 @@ const Book = () => {
     if (startDate && endDate) {
       const start = new Date(startDate);
       const end = new Date(endDate);
-      const diffTime = Math.abs(end - start);
+      const diffTime = Math.abs(end - start); // abs is absolute value
       const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); // Convert milliseconds to days
       setDays(diffDays);
     } else {
@@ -21,7 +21,7 @@ const Book = () => {
     <div className="w-10/12 h-40 mx-auto -my-12 z-auto bg-orange-200 rounded-lg p-9">
       <div className="flex gap-8 justify-center items-center">
         <div className="flex flex-col">
-          <label>Pick-up *</label>
+          <label>Pick-up</label>
           <select className="bg-white border border-slate-300 py-1 px-1 md:py-2 md:px-4 rounded-lg">
             <option>Select your location</option>
             <option value="Mumbai">Mumbai</option>
@@ -31,7 +31,7 @@ const Book = () => {
           </select>
         </div>
         <div className="flex flex-col">
-          <label>Drop-of *</label>
+          <label>Drop-off</label>
           <select className="bg-white border border-slate-300 py-1 px-1 md:py-2 md:px-4 rounded-lg">
             <option>Select your location</option>
             <option value="Mumbai">Mumbai</option>
@@ -63,10 +63,10 @@ const Book = () => {
 
         <div>
           <button
-            className="bg-[#ff4d30] text-white px-12 py-2 rounded-lg"
+            className="bg-[#ff4d30] hover:bg-[#f01a1a] text-white mt-6 px-12 py-2 rounded-lg"
             onClick={calculateDays}
           >
-            Search
+            Calculate
           </button>
         </div>
       </div>

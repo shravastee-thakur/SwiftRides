@@ -1,4 +1,4 @@
-export const RentalFleets = [
+export const CarData = [
   {
     carImage: "/images/Hatchback/Hyundai Grand i10.webp",
     type: "Hatchback",
@@ -14,7 +14,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Hatchback/Hyundai i20.webp",
+    carImage: "/images/Hatchback/Hyundai i20.webp",
     type: "Hatchback",
     pricePerDay: "Rs 4500 ",
     carTitle: "Hyundai I20",
@@ -28,7 +28,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Hatchback/Maruti Suzuki Alto 800.webp",
+    carImage: "/images/Hatchback/Maruti Suzuki Alto 800.webp",
     type: "Hatchback",
     pricePerDay: "Rs 4900 ",
     carTitle: "Maruti Suzuki Alto 800",
@@ -42,7 +42,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Hatchback/Maruti Suzuki Baleno.jpg",
+    carImage: "/images/Hatchback/Maruti Suzuki Baleno.jpg",
     type: "Hatchback",
     pricePerDay: "Rs 4000 ",
     carTitle: "Maruti Suzuki Baleno",
@@ -56,7 +56,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Hatchback/Maruti Suzuki Swift.jpg",
+    carImage: "/images/Hatchback/Maruti Suzuki Swift.jpg",
     type: "Hatchback",
     pricePerDay: "Rs 5500 ",
     carTitle: "Maruti Suzuki Swift",
@@ -70,7 +70,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Hatchback/Maruti Suzuki Wagon R.jpg",
+    carImage: "/images/Hatchback/Maruti Suzuki Wagon R.jpg",
     type: "Hatchback",
     pricePerDay: "Rs 4200 ",
     carTitle: "Maruti Suzuki Wagon R",
@@ -84,7 +84,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Muv/Kia Carens.webp",
+    carImage: "/images/Muv/Kia Carens.webp",
     type: "Muv",
     pricePerDay: "Rs 5200 ",
     carTitle: "Kia Carens",
@@ -98,7 +98,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Muv/Maruti Suzuki Ertiga.webp",
+    carImage: "/images/Muv/Maruti Suzuki Ertiga.webp",
     type: "Muv",
     pricePerDay: "Rs 5000 ",
     carTitle: "Maruti Suzuki Ertiga",
@@ -112,7 +112,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Muv/Maruti Suzuki XL6.webp",
+    carImage: "/images/Muv/Maruti Suzuki XL6.webp",
     type: "Muv",
     pricePerDay: "Rs 5000 ",
     carTitle: "Maruti Suzuki XL6",
@@ -126,7 +126,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Muv/Renault Triber.webp",
+    carImage: "/images/Muv/Renault Triber.webp",
     type: "Muv",
     pricePerDay: "Rs 4500 ",
     carTitle: "Renault Triber",
@@ -140,7 +140,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Muv/Toyota Innova Crysta.webp",
+    carImage: "/images/Muv/Toyota Innova Crysta.webp",
     type: "Muv",
     pricePerDay: "Rs 5300 ",
     carTitle: "Toyota Innova Crysta",
@@ -154,7 +154,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Sedan/Honda Amaze.webp",
+    carImage: "/images/Sedan/Honda Amaze.webp",
     type: "Sedan",
     pricePerDay: "Rs 5500 ",
     carTitle: "Honda Amaze",
@@ -168,7 +168,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Sedan/Honda City.webp",
+    carImage: "/images/Sedan/Honda City.webp",
     type: "Sedan",
     pricePerDay: "Rs 5500 ",
     carTitle: "Honda City",
@@ -182,7 +182,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Sedan/Hyundai Aura.webp",
+    carImage: "/images/Sedan/Hyundai Aura.webp",
     type: "Sedan",
     pricePerDay: "Rs 5800 ",
     carTitle: "Hyundai Aura",
@@ -196,7 +196,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Sedan/Maruti Suzuki Dzire.webp",
+    carImage: "/images/Sedan/Maruti Suzuki Dzire.webp",
     type: "Sedan",
     pricePerDay: "Rs 6800 ",
     carTitle: "Maruti Suzuki Dzire",
@@ -210,7 +210,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Sedan/Skoda Slavia.webp",
+    carImage: "/images/Sedan/Skoda Slavia.webp",
     type: "Sedan",
     pricePerDay: "Rs 5600 ",
     carTitle: "Skoda Slavia",
@@ -224,7 +224,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Sedan/Tata Tigor.jpeg",
+    carImage: "/images/Sedan/Tata Tigor.jpeg",
     type: "Sedan",
     pricePerDay: "Rs 5600 ",
     carTitle: "Tata Tigor",
@@ -238,7 +238,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Suv Sports/Hyundai Creta.webp",
+    carImage: "/images/Suv/Hyundai Creta.webp",
     type: "Suv",
     pricePerDay: "Rs 6500 ",
     carTitle: "Hyundai Creta",
@@ -252,7 +252,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Suv Sports/Hyundai Venue.jpg",
+    carImage: "/images/Suv/Hyundai Venue.jpg",
     type: "Suv",
     pricePerDay: "Rs 5620 ",
     carTitle: "Hyundai Venue",
@@ -266,7 +266,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Suv Sports/Kia Seltos.jpeg",
+    carImage: "/images/Suv/Kia Seltos.jpeg",
     type: "Suv",
     pricePerDay: "Rs 5620 ",
     carTitle: "Kia Seltos",
@@ -280,7 +280,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Suv Sports/Kia Sonet.jpg",
+    carImage: "/images/Suv/Kia Sonet.jpg",
     type: "Suv",
     pricePerDay: "Rs 6230 ",
     carTitle: "Kia Sonet",
@@ -294,7 +294,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Suv Sports/Tata Nexon.jpg",
+    carImage: "/images/Suv/Tata Nexon.jpg",
     type: "Suv",
     pricePerDay: "Rs 5230 ",
     carTitle: "Tata Nexon",
@@ -308,7 +308,7 @@ export const RentalFleets = [
   },
 
   {
-    carImage: "../assets/Cars fleet/Suv Sports/Tata Punch.webp",
+    carImage: "/images/Suv/Tata Punch.webp",
     type: "Suv",
     pricePerDay: "Rs 3530 ",
     carTitle: "Tata Punch",
