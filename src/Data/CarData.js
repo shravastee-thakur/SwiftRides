@@ -1,8 +1,8 @@
 export const CarData = [
   {
-    carImage: "/images/Hatchback/Hyundai Grand i10.webp",
+    carImage: "/images/Hatchback/Hyundaii10.png",
     type: "Hatchback",
-    pricePerDay: "Rs 5000 ",
+    pricePerDay: 5000,
     carTitle: "Hyundai Grand i10",
     carYear: "2016",
     carKm: "4567",
@@ -14,9 +14,9 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Hatchback/Hyundai i20.webp",
+    carImage: "/images/Hatchback/Hyundaii20.png",
     type: "Hatchback",
-    pricePerDay: "Rs 4500 ",
+    pricePerDay: 4500,
     carTitle: "Hyundai I20",
     carYear: "2016",
     carKm: "1259",
@@ -28,9 +28,9 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Hatchback/Maruti Suzuki Alto 800.webp",
+    carImage: "/images/Hatchback/MarutiAlto800.png",
     type: "Hatchback",
-    pricePerDay: "Rs 4900 ",
+    pricePerDay: 4900,
     carTitle: "Maruti Suzuki Alto 800",
     carYear: "2014",
     carKm: "2560",
@@ -42,9 +42,9 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Hatchback/Maruti Suzuki Baleno.jpg",
+    carImage: "/images/Hatchback/MarutiBaleno.png",
     type: "Hatchback",
-    pricePerDay: "Rs 4000 ",
+    pricePerDay: 4000,
     carTitle: "Maruti Suzuki Baleno",
     carYear: "2014",
     carKm: "5670",
@@ -56,9 +56,9 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Hatchback/Maruti Suzuki Swift.jpg",
+    carImage: "/images/Hatchback/MarutiSwift.png",
     type: "Hatchback",
-    pricePerDay: "Rs 5500 ",
+    pricePerDay: 5500,
     carTitle: "Maruti Suzuki Swift",
     carYear: "2018",
     carKm: "1267",
@@ -70,9 +70,9 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Hatchback/Maruti Suzuki Wagon R.jpg",
+    carImage: "/images/Hatchback/MarutiWagonR.png",
     type: "Hatchback",
-    pricePerDay: "Rs 4200 ",
+    pricePerDay: 4200,
     carTitle: "Maruti Suzuki Wagon R",
     carYear: "2013",
     carKm: "4567",
@@ -84,9 +84,9 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Muv/Kia Carens.webp",
+    carImage: "/images/Muv/KiaCarens.png",
     type: "Muv",
-    pricePerDay: "Rs 5200 ",
+    pricePerDay: 5200,
     carTitle: "Kia Carens",
     carYear: "2017",
     carKm: "5627",
@@ -98,9 +98,9 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Muv/Maruti Suzuki Ertiga.webp",
+    carImage: "/images/Muv/MarutiErtiga.png",
     type: "Muv",
-    pricePerDay: "Rs 5000 ",
+    pricePerDay: 5000,
     carTitle: "Maruti Suzuki Ertiga",
     carYear: "2015",
     carKm: "4582",
@@ -112,9 +112,9 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Muv/Maruti Suzuki XL6.webp",
+    carImage: "/images/Muv/MarutiXL6.png",
     type: "Muv",
-    pricePerDay: "Rs 5000 ",
+    pricePerDay: 5000,
     carTitle: "Maruti Suzuki XL6",
     carYear: "2017",
     carKm: "2560",
@@ -126,9 +126,9 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Muv/Renault Triber.webp",
+    carImage: "/images/Muv/RenaultTriber.png",
     type: "Muv",
-    pricePerDay: "Rs 4500 ",
+    pricePerDay: 4500,
     carTitle: "Renault Triber",
     carYear: "2015",
     carKm: "2850",
@@ -140,9 +140,9 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Muv/Toyota Innova Crysta.webp",
+    carImage: "/images/Muv/ToyotaCrysta.png",
     type: "Muv",
-    pricePerDay: "Rs 5300 ",
+    pricePerDay: 5300,
     carTitle: "Toyota Innova Crysta",
     carYear: "2014",
     carKm: "6567",
@@ -156,7 +156,7 @@ export const CarData = [
   {
     carImage: "/images/Sedan/Honda Amaze.webp",
     type: "Sedan",
-    pricePerDay: "Rs 5500 ",
+    pricePerDay: 5500,
     carTitle: "Honda Amaze",
     carYear: "2019",
     carKm: "1267",
@@ -170,7 +170,7 @@ export const CarData = [
   {
     carImage: "/images/Sedan/Honda City.webp",
     type: "Sedan",
-    pricePerDay: "Rs 5500 ",
+    pricePerDay: 5500,
     carTitle: "Honda City",
     carYear: "2019",
     carKm: "1687",
@@ -184,7 +184,7 @@ export const CarData = [
   {
     carImage: "/images/Sedan/Hyundai Aura.webp",
     type: "Sedan",
-    pricePerDay: "Rs 5800 ",
+    pricePerDay: 5800,
     carTitle: "Hyundai Aura",
     carYear: "2018",
     carKm: "3860",
@@ -198,7 +198,7 @@ export const CarData = [
   {
     carImage: "/images/Sedan/Maruti Suzuki Dzire.webp",
     type: "Sedan",
-    pricePerDay: "Rs 6800 ",
+    pricePerDay: 6800,
     carTitle: "Maruti Suzuki Dzire",
     carYear: "2019",
     carKm: "5667",
@@ -212,7 +212,7 @@ export const CarData = [
   {
     carImage: "/images/Sedan/Skoda Slavia.webp",
     type: "Sedan",
-    pricePerDay: "Rs 5600 ",
+    pricePerDay: 5600,
     carTitle: "Skoda Slavia",
     carYear: "2017",
     carKm: "1294",
@@ -226,7 +226,7 @@ export const CarData = [
   {
     carImage: "/images/Sedan/Tata Tigor.jpeg",
     type: "Sedan",
-    pricePerDay: "Rs 5600 ",
+    pricePerDay: 5600,
     carTitle: "Tata Tigor",
     carYear: "2018",
     carKm: "1545",
@@ -240,7 +240,7 @@ export const CarData = [
   {
     carImage: "/images/Suv/Hyundai Creta.webp",
     type: "Suv",
-    pricePerDay: "Rs 6500 ",
+    pricePerDay: 6500,
     carTitle: "Hyundai Creta",
     carYear: "2015",
     carKm: "1545",
@@ -254,7 +254,7 @@ export const CarData = [
   {
     carImage: "/images/Suv/Hyundai Venue.jpg",
     type: "Suv",
-    pricePerDay: "Rs 5620 ",
+    pricePerDay: 5620,
     carTitle: "Hyundai Venue",
     carYear: "2015",
     carKm: "5945",
@@ -268,7 +268,7 @@ export const CarData = [
   {
     carImage: "/images/Suv/Kia Seltos.jpeg",
     type: "Suv",
-    pricePerDay: "Rs 5620 ",
+    pricePerDay: 5620,
     carTitle: "Kia Seltos",
     carYear: "2018",
     carKm: "2658",
@@ -282,7 +282,7 @@ export const CarData = [
   {
     carImage: "/images/Suv/Kia Sonet.jpg",
     type: "Suv",
-    pricePerDay: "Rs 6230 ",
+    pricePerDay: 6230,
     carTitle: "Kia Sonet",
     carYear: "2015",
     carKm: "2658",
@@ -296,7 +296,7 @@ export const CarData = [
   {
     carImage: "/images/Suv/Tata Nexon.jpg",
     type: "Suv",
-    pricePerDay: "Rs 5230 ",
+    pricePerDay: 5230,
     carTitle: "Tata Nexon",
     carYear: "2013",
     carKm: "5685",
@@ -310,7 +310,7 @@ export const CarData = [
   {
     carImage: "/images/Suv/Tata Punch.webp",
     type: "Suv",
-    pricePerDay: "Rs 3530 ",
+    pricePerDay: 4530,
     carTitle: "Tata Punch",
     carYear: "2012",
     carKm: "6895",

@@ -5,6 +5,8 @@ import Facilities from "./Components/Facilities";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import Fleet from "./Components/Fleet";
+import Accordion from "./Components/Accordian";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Book />
       <Facilities />
       <Fleet />
+      <Accordion />
+      <Footer />
     </>
   );
 }

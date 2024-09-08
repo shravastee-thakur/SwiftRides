@@ -28,9 +28,9 @@ const Fleet = () => {
       <h4 className="text-center font-semibold">
         Discover the SwiftRides Fleet
       </h4>
-      <h1 className="text-center text-4xl font-bold">Our Rental Fleets</h1>
+      <h1 className="text-center text-3xl md:text-4xl font-bold">Our Rental Fleets</h1>
 
-      <div className="flex gap-8 justify-center items-center mt-8">
+      <div className="flex flex-wrap gap-3 md:gap-8 justify-center items-center mt-8">
         <div
           className="cursor-pointer font-semibold"
           style={{ borderBottom: tab === 1 ? "2px solid red" : "white" }}
@@ -68,29 +68,35 @@ const Fleet = () => {
         </div>
       </div>
 
-      <div className="mt-12  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-20">
+      <div className="mt-12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:px-20">
         {data &&
           data.map((item, index) => {
             return (
-              <div key={index} className="border border-slate-300 w-[350px] my-4">
-                <div className="w-[349px]">
+              <div
+                key={index}
+                className="border border-slate-300 w-[250px] md:w-[350px] my-4 flex flex-col justify-between"
+              >
+                <div className="w-[250px] md:w-[349px]">
                   <img src={item.carImage} alt="" />
                 </div>
-                <div className="text-center">
-                  <h1 className="text-2xl font-bold text-red-800">{item.carTitle}</h1>
-                  <p className="text-blue-900 font-bold mt-6">{item.pricePerDay}</p>
-                  <div className="flex justify-between px-5 mt-6">
-                    <p>{item.carYear}</p>
-                    <p>{item.carKm}</p>
-                    <p>{item.carTopSpeed}</p>
+                <div className="text-center flex-grow">
+                  <h1 className="text-2xl font-bold text-red-800">
+                    {item.carTitle}
+                  </h1>
+                  <p className="text-blue-900 font-bold mt-6">
+                    ₹ {item.pricePerDay.toLocaleString()} /- per day
+                  </p>
+                </div>
+                <div className="flex justify-around mt-4">
+                  <div className="">
+                    <button className="bg-orange-600 rounded-md py-1 px-12 font-semibold text-white">
+                      Rent
+                    </button>
                   </div>
-                  <div className="flex justify-around">
-                    <div className="bg-red-600 w-1/2 mt-6">
-                      <button>Rent</button>
-                    </div>
-                    <div className="bg-orange-300 w-1/2 mt-6">
-                      <button>Details</button>
-                    </div>
+                  <div className="">
+                    <button className="bg-orange-400 rounded-md py-1 px-8 font-semibold text-white">
+                      Details
+                    </button>
                   </div>
                 </div>
               </div>
