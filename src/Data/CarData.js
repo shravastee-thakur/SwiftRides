@@ -154,7 +154,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Sedan/Honda Amaze.webp",
+    carImage: "/images/Sedan/HondaAmaze.png",
     type: "Sedan",
     pricePerDay: 5500,
     carTitle: "Honda Amaze",
@@ -168,7 +168,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Sedan/Honda City.webp",
+    carImage: "/images/Sedan/HondaCity.png",
     type: "Sedan",
     pricePerDay: 5500,
     carTitle: "Honda City",
@@ -182,7 +182,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Sedan/Hyundai Aura.webp",
+    carImage: "/images/Sedan/HyundaiAura.png",
     type: "Sedan",
     pricePerDay: 5800,
     carTitle: "Hyundai Aura",
@@ -196,7 +196,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Sedan/Maruti Suzuki Dzire.webp",
+    carImage: "/images/Sedan/MarutiDezire.png",
     type: "Sedan",
     pricePerDay: 6800,
     carTitle: "Maruti Suzuki Dzire",
@@ -210,7 +210,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Sedan/Skoda Slavia.webp",
+    carImage: "/images/Sedan/SkodaSlavia.png",
     type: "Sedan",
     pricePerDay: 5600,
     carTitle: "Skoda Slavia",
@@ -224,7 +224,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Sedan/Tata Tigor.jpeg",
+    carImage: "/images/Sedan/TataTigor.png",
     type: "Sedan",
     pricePerDay: 5600,
     carTitle: "Tata Tigor",
@@ -238,7 +238,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Suv/Hyundai Creta.webp",
+    carImage: "/images/Suv/HyundaiCreta.png",
     type: "Suv",
     pricePerDay: 6500,
     carTitle: "Hyundai Creta",
@@ -252,7 +252,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Suv/Hyundai Venue.jpg",
+    carImage: "/images/Suv/HyundaiVenue.png",
     type: "Suv",
     pricePerDay: 5620,
     carTitle: "Hyundai Venue",
@@ -266,7 +266,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Suv/Kia Seltos.jpeg",
+    carImage: "/images/Suv/KiaSeltos.png",
     type: "Suv",
     pricePerDay: 5620,
     carTitle: "Kia Seltos",
@@ -280,7 +280,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Suv/Kia Sonet.jpg",
+    carImage: "/images/Suv/KiaSonet.png",
     type: "Suv",
     pricePerDay: 6230,
     carTitle: "Kia Sonet",
@@ -294,7 +294,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Suv/Tata Nexon.jpg",
+    carImage: "/images/Suv/TataNexon.png",
     type: "Suv",
     pricePerDay: 5230,
     carTitle: "Tata Nexon",
@@ -308,7 +308,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Suv/Tata Punch.webp",
+    carImage: "/images/Suv/TataPunch.png",
     type: "Suv",
     pricePerDay: 4530,
     carTitle: "Tata Punch",

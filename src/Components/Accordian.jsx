@@ -33,15 +33,14 @@ const Accordion = () => {
   return (
     <section className="mt-24">
       <h4 className="text-center font-semibold">FAQ</h4>
-      <h1 className="text-center text-4xl font-bold">
+      <h1 className="text-center text-3xl md:text-4xl font-bold">
         Frequently Asked Questions
       </h1>
       <p className="text-center mt-8 text-lg">
-        Frequently Asked Questions About the Car Rental Booking Process on Our
-        Website: Answers to <br />
-        Common Concerns and Inquiries.
+        Frequently asked questions about the Car Rental booking process on our
+        website.
       </p>
-      <div className="max-w-2xl mx-auto shadow-2xl mt-16">
+      <div className="max-w-2xl mx-auto shadow-2xl mt-8">
         {faqData.map((faq, index) => (
           <div key={index} className="border-b border-gray-300">
             <button
