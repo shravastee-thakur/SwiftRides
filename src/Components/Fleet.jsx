@@ -1,12 +1,10 @@
 import React, { useState } from "react";
-import { CarData } from "../Data/CarData";
+import { CarData } from "../Data/CarData"; // Assuming CarData is available
 
-const Fleet = () => {
+const Fleet = ({ days, startDate, endDate }) => {
   const [tab, setTab] = useState(1);
-
-  const activeTab = (tabNumber) => {
-    setTab(tabNumber);
-  };
+  const [selectedCar, setSelectedCar] = useState(null);
+  const [isModalOpen, setModalOpen] = useState(false);
 
   const Hatchback = CarData.filter((car) => car.type === "Hatchback");
   const Sedan = CarData.filter((car) => car.type === "Sedan");
@@ -23,6 +21,14 @@ const Fleet = () => {
       : tab === 5
       ? Suv
       : CarData;
+
+  const openModal = (car) => {
+    setSelectedCar(car);
+    setModalOpen(true);
+  };
+
+  const closeModal = () => setModalOpen(false);
+
   return (
     <section className="mt-24">
       <h4 className="text-center font-semibold">
@@ -69,27 +75,22 @@ const Fleet = () => {
           SUV
         </div>
       </div>
-
       <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:px-20">
         {data &&
-          data.map((item, index) => (
-            <div
-              key={index}
-              className="border border-slate-300 w-full max-w-[350px] mx-auto my-4 flex flex-col justify-between"
-            >
-              <div className="w-full">
-                <img src={item.carImage} className="w-full object-cover" />
-              </div>
-              <div className="text-center flex-grow">
-                <h1 className="text-2xl font-bold text-red-800">
-                  {item.carTitle}
-                </h1>
-                <p className="text-blue-900 font-bold mt-6">
-                  ₹ {item.pricePerDay.toLocaleString()} /- per day
-                </p>
-              </div>
+          data.map((car, index) => (
+            <div key={index} className="border border-slate-300 w-full">
+              <img src={car.carImage} className="w-full object-cover" />
+              <h1 className="text-2xl font-bold text-red-800 text-center">
+                {car.carTitle}
+              </h1>
+              <p className="text-blue-900 font-bold text-center">
+                ₹ {car.pricePerDay.toLocaleString()} /- per day
+              </p>
               <div className="flex justify-around mt-4">
-                <button className="bg-orange-600 rounded-md py-1 px-6 sm:px-8 font-semibold text-white">
+                <button
+                  className="bg-orange-600 rounded-md py-1 px-6 sm:px-8 font-semibold text-white"
+                  onClick={() => openModal(car)}
+                >
                   Rent
                 </button>
                 <button className="bg-orange-400 rounded-md py-1 px-6 sm:px-8 font-semibold text-white">
@@ -99,6 +100,32 @@ const Fleet = () => {
             </div>
           ))}
       </div>
+
+      {isModalOpen && selectedCar && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="bg-white p-6 rounded-lg">
+            <h2 className="text-xl font-semibold text-center mb-3">
+              Booking Details
+            </h2>
+            <p className="mb-2">Car: {selectedCar.carTitle}</p>
+            <p className="mb-2">Start Date: {startDate}</p>
+            <p className="mb-2">End Date: {endDate}</p>
+            <p className="mb-2">Number of Days: {days}</p>
+            <p className="mb-2">Rate per Day: ₹ {selectedCar.pricePerDay.toLocaleString()}</p>
+            <p className="mb-2 font-semibold">
+              Total Amount: ₹ {(selectedCar.pricePerDay * days).toLocaleString()}
+            </p>
+            <div className="flex justify-center">
+            <button
+              className="bg-red-500 text-white px-4 py-2 mt-4 rounded-md"
+              onClick={closeModal}
+            >
+              Close
+            </button>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 };
