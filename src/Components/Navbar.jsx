@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="relative flex justify-between items-center text-sm font-semibold py-6 px-4 md:px-12 shadow-lg ">
+      <nav className="relative flex justify-between items-center text-sm font-semibold py-6 px-4 md:px-12 shadow-xl ">
         <div>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
             <span className="text-[#ff4d30]">Swift</span>Rides

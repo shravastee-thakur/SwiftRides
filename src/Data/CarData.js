@@ -1,6 +1,6 @@
 export const CarData = [
   {
-    carImage: "/images/Hatchback/Hyundaii10.png",
+    carImage: "/images/Hatchback/Hyundaii10.jpg",
     type: "Hatchback",
     pricePerDay: 5000,
     carTitle: "Hyundai Grand i10",
@@ -14,7 +14,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Hatchback/Hyundaii20.png",
+    carImage: "/images/Hatchback/Hyundaii20.jpg",
     type: "Hatchback",
     pricePerDay: 4500,
     carTitle: "Hyundai I20",
@@ -28,7 +28,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Hatchback/MarutiAlto800.png",
+    carImage: "/images/Hatchback/MarutiAlto800.jpg",
     type: "Hatchback",
     pricePerDay: 4900,
     carTitle: "Maruti Suzuki Alto 800",
@@ -42,7 +42,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Hatchback/MarutiBaleno.png",
+    carImage: "/images/Hatchback/MarutiBaleno.jpg",
     type: "Hatchback",
     pricePerDay: 4000,
     carTitle: "Maruti Suzuki Baleno",
@@ -56,7 +56,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Hatchback/MarutiSwift.png",
+    carImage: "/images/Hatchback/MarutiSwift.jpg",
     type: "Hatchback",
     pricePerDay: 5500,
     carTitle: "Maruti Suzuki Swift",
@@ -70,7 +70,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Hatchback/MarutiWagonR.png",
+    carImage: "/images/Hatchback/MarutiWagonR.jpg",
     type: "Hatchback",
     pricePerDay: 4200,
     carTitle: "Maruti Suzuki Wagon R",
@@ -84,7 +84,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Muv/KiaCarens.png",
+    carImage: "/images/Muv/KiaCarens.jpg",
     type: "Muv",
     pricePerDay: 5200,
     carTitle: "Kia Carens",
@@ -98,7 +98,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Muv/MarutiErtiga.png",
+    carImage: "/images/Muv/MarutiErtiga.jpg",
     type: "Muv",
     pricePerDay: 5000,
     carTitle: "Maruti Suzuki Ertiga",
@@ -112,7 +112,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Muv/MarutiXL6.png",
+    carImage: "/images/Muv/MarutiXL6.jpg",
     type: "Muv",
     pricePerDay: 5000,
     carTitle: "Maruti Suzuki XL6",
@@ -126,7 +126,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Muv/RenaultTriber.png",
+    carImage: "/images/Muv/RenaultTriber.jpg",
     type: "Muv",
     pricePerDay: 4500,
     carTitle: "Renault Triber",
@@ -140,7 +140,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Muv/ToyotaCrysta.png",
+    carImage: "/images/Muv/ToyotaCrysta.jpg",
     type: "Muv",
     pricePerDay: 5300,
     carTitle: "Toyota Innova Crysta",
@@ -154,7 +154,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Sedan/HondaAmaze.png",
+    carImage: "/images/Sedan/HondaAmaze.jpg",
     type: "Sedan",
     pricePerDay: 5500,
     carTitle: "Honda Amaze",
@@ -168,7 +168,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Sedan/HondaCity.png",
+    carImage: "/images/Sedan/HondaCity.jpg",
     type: "Sedan",
     pricePerDay: 5500,
     carTitle: "Honda City",
@@ -182,7 +182,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Sedan/HyundaiAura.png",
+    carImage: "/images/Sedan/HyundaiAura.jpg",
     type: "Sedan",
     pricePerDay: 5800,
     carTitle: "Hyundai Aura",
@@ -196,7 +196,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Sedan/MarutiDezire.png",
+    carImage: "/images/Sedan/MarutiDezire.jpg",
     type: "Sedan",
     pricePerDay: 6800,
     carTitle: "Maruti Suzuki Dzire",
@@ -210,7 +210,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Sedan/SkodaSlavia.png",
+    carImage: "/images/Sedan/SkodaSlavia.jpg",
     type: "Sedan",
     pricePerDay: 5600,
     carTitle: "Skoda Slavia",
@@ -224,7 +224,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Sedan/TataTigor.png",
+    carImage: "/images/Sedan/TataTigor.jpg",
     type: "Sedan",
     pricePerDay: 5600,
     carTitle: "Tata Tigor",
@@ -238,7 +238,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Suv/HyundaiCreta.png",
+    carImage: "/images/Suv/HyundaiCreta.jpg",
     type: "Suv",
     pricePerDay: 6500,
     carTitle: "Hyundai Creta",
@@ -252,7 +252,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Suv/HyundaiVenue.png",
+    carImage: "/images/Suv/HyundaiVenue.jpg",
     type: "Suv",
     pricePerDay: 5620,
     carTitle: "Hyundai Venue",
@@ -266,7 +266,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Suv/KiaSeltos.png",
+    carImage: "/images/Suv/KiaSeltos.jpg",
     type: "Suv",
     pricePerDay: 5620,
     carTitle: "Kia Seltos",
@@ -280,7 +280,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Suv/KiaSonet.png",
+    carImage: "/images/Suv/KiaSonet.jpg",
     type: "Suv",
     pricePerDay: 6230,
     carTitle: "Kia Sonet",
@@ -294,7 +294,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Suv/TataNexon.png",
+    carImage: "/images/Suv/TataNexon.jpg",
     type: "Suv",
     pricePerDay: 5230,
     carTitle: "Tata Nexon",
@@ -308,7 +308,7 @@ export const CarData = [
   },
 
   {
-    carImage: "/images/Suv/TataPunch.png",
+    carImage: "/images/Suv/TataPunch.jpg",
     type: "Suv",
     pricePerDay: 4530,
     carTitle: "Tata Punch",

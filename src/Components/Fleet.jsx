@@ -81,7 +81,10 @@ const Fleet = ({ days, startDate, endDate }) => {
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:px-20">
           {data &&
             data.map((car, index) => (
-              <div key={index} className="border border-slate-300 w-full">
+              <div
+                key={index}
+                className="hover:border border-black transition ease-in-out delay-150 w-full"
+              >
                 <img src={car.carImage} className="w-full object-cover" />
                 <h1 className="text-2xl font-bold text-red-800 text-center">
                   {car.carTitle}
@@ -91,12 +94,12 @@ const Fleet = ({ days, startDate, endDate }) => {
                 </p>
                 <div className="flex justify-around mt-4">
                   <button
-                    className="bg-orange-600 rounded-md py-1 px-6 sm:px-8 font-semibold text-white"
+                    className="bg-orange-600 hover:bg-red-600 rounded-md py-1 px-6 sm:px-8 font-semibold text-white"
                     onClick={() => openModal(car)}
                   >
                     Rent
                   </button>
-                  <button className="bg-orange-400 rounded-md py-1 px-6 sm:px-8 font-semibold text-white">
+                  <button className="bg-orange-400 hover:bg-orange-500 rounded-md py-1 px-6 sm:px-8 font-semibold text-white">
                     Details
                   </button>
                 </div>
@@ -107,7 +110,7 @@ const Fleet = ({ days, startDate, endDate }) => {
         {isModalOpen && selectedCar && (
           <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
             <div className="bg-white p-6 rounded-lg">
-              <h2 className="text-xl font-semibold text-center mb-3">
+              <h2 className="text-xl font-semibold text-center mb-3 text-red-700">
                 Booking Details
               </h2>
               <p className="mb-2">Car: {selectedCar.carTitle}</p>
@@ -115,11 +118,11 @@ const Fleet = ({ days, startDate, endDate }) => {
               <p className="mb-2">End Date: {endDate}</p>
               <p className="mb-2">Number of Days: {days}</p>
               <p className="mb-2">
-                Rate per Day: ₹ {selectedCar.pricePerDay.toLocaleString()}
+                Rate per Day: ₹ {selectedCar.pricePerDay.toLocaleString()}/-
               </p>
               <p className="mb-2 font-semibold">
                 Total Amount: ₹{" "}
-                {(selectedCar.pricePerDay * days).toLocaleString()}
+                {(selectedCar.pricePerDay * days).toLocaleString()}/-
               </p>
               <div className="flex justify-center">
                 <button
