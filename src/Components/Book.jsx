@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Fleet from "./Fleet"; 
+import Fleet from "./Fleet";
 
 const Book = () => {
   const [startDate, setStartDate] = useState("");
@@ -81,7 +81,12 @@ const Book = () => {
         )}
       </div>
       {/* Passing the days, startDate, and endDate to Fleet */}
-      <Fleet days={days} startDate={startDate} endDate={endDate} />
+      <Fleet
+        className="hidden"
+        days={days}
+        startDate={startDate}
+        endDate={endDate}
+      />
     </>
   );
 };
